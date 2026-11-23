@@ -11,6 +11,26 @@ document.addEventListener('DOMContentLoaded', function () {
   var t = document.querySelector('.menu-toggle');
   if (t) t.addEventListener('click', function () { document.querySelector('nav.main').classList.toggle('open'); });
   var form = document.getElementById('quote-form');
+  // Google Ads click-to-call conversion, copied from the original site.
+  // Fires on any tel: link click, then lets the call go through (2s fallback
+  // so a slow tag never blocks the call).
+  document.addEventListener('click', function (event) {
+    var phoneLink = event.target.closest && event.target.closest('a[href^="tel:"]');
+    if (!phoneLink || typeof window.gtag !== 'function') return;
+    event.preventDefault();
+    var continued = false;
+    function continueCall() {
+      if (continued) return;
+      continued = true;
+      window.location.href = phoneLink.href;
+    }
+    window.gtag('event', 'conversion', {
+      'send_to': 'AW-18310969734/zNpXCMewgOkcEIbzrJtE',
+      'event_callback': continueCall,
+      'event_timeout': 2000
+    });
+    window.setTimeout(continueCall, 2000);
+  });
   if (form) form.addEventListener('submit', function (e) {
     e.preventDefault();
     var v = function (id) { return document.getElementById(id).value.trim(); };
