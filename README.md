@@ -27,8 +27,9 @@ rebuilt as plain HTML/CSS/JS for Cloudflare Pages.
 4. Gallery: greenhouse, log building and barn photos removed; kept the 6
    spray-foam worker photos and added 3 relevant stock photos (metal
    building, barn, house framing) for a 9-photo grid. Intro wording softened
-   from "completed projects" to "examples of our work"; photos are labelled
-   as representative examples, not claimed as the business's completed jobs.
+   from "completed projects" to "examples of our work". The
+   "representative examples" note was removed from the Gallery page
+   2026-11-23 at the user's request.
 5. Footer copyright fixed from "Copyright ©2026- Stillwater Spray Foam" to
    "Copyright ©2026 Stillwater Spray Foam - All Rights Reserved".
 6. Footer email shown in plain text as contact@stillwatersprayfoam.com
