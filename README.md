@@ -12,6 +12,10 @@ rebuilt as plain HTML/CSS/JS for Cloudflare Pages.
   run on static Pages.
 - Business: Stillwater Spray Foam and Construction LLC, 2805 E 6th Ave,
   Ste 2, Stillwater, OK 74074, (405) 747-4019, contact@stillwatersprayfoam.com.
+- Tracking: Google Analytics / Google Ads gtag added 2026-11-23
+  (GT-KT9X2388, AW-18310969734, click-to-call conversion
+  AW-18310969734/zNpXCMewgOkcEIbzrJtE) in build.py's shared head template,
+  so all 6 pages carry it. Same IDs as the original WordPress/Site Kit setup.
 
 ## Fixes applied vs the original (approved by the user)
 
