@@ -69,6 +69,9 @@ form.quote .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 form.quote button{margin-top:20px}
 /* footer */
 footer.site{background:#232323;color:#fff;text-align:center;padding:28px 20px}
+footer.site .footer-logo{text-align:left;margin:0 0 18px}
+footer.site .footer-logo a{display:inline-block;background:#fff;padding:10px 14px;border-radius:6px}
+footer.site .footer-logo img{height:64px;width:auto}
 footer.site a{color:#fff}
 footer.site .footer-text{font-weight:600;font-size:1.15rem;margin:6px 0}
 footer.site .created{font-size:1rem;margin-top:10px}
